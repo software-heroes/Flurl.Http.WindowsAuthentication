@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageLicenseFile>license.md</PackageLicenseFile>
+    <Authors>Software Hero</Authors>
+    <RepositoryUrl>https://github.com/software-heroes/Flurl.Http.WindowsAuthentication</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/software-heroes/Flurl.Http.WindowsAuthentication</PackageProjectUrl>
+    <Description>https://stackoverflow.com/questions/52347213/how-do-i-use-windows-authentication-with-the-flurl-library
+https://github.com/tmenier/Flurl/issues/133</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flurl.Http" Version="2.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="license.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
