@@ -7,5 +7,10 @@
             FlurlHttp.ConfigureClient(url, cli =>
                 cli.Settings.HttpClientFactory = new UseDefaultCredentialsClientFactory());
         }
+
+        public static void ConfigureDomainWithWindowsAuthentication()
+        {
+            FlurlHttp.Configure(settings => settings.HttpClientFactory = new UseDefaultCredentialsClientFactory());
+        }
     }
 }

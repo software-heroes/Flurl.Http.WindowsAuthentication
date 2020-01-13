@@ -8,6 +8,7 @@
     <PackageProjectUrl>https://github.com/software-heroes/Flurl.Http.WindowsAuthentication</PackageProjectUrl>
     <Description>https://stackoverflow.com/questions/52347213/how-do-i-use-windows-authentication-with-the-flurl-library
 https://github.com/tmenier/Flurl/issues/133</Description>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
