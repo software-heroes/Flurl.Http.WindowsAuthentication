@@ -10,7 +10,7 @@ FlurlConfiguration.ConfigureDomainWithWindowsAuthentication("https://sample.url"
 ```
 or for all request in application:
 ```csharp
-FlurlConfiguration.ConfigureDomainWithWindowsAuthentication();
+FlurlConfiguration.ConfigureAllRequestsWithWindowsAuthentication();
 ```
 
 Setup UseDefaultCredentials for WindowsAuthentication only for particular request:
